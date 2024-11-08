@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Trips - Voyage Vista</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            background-color: #0d406e;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .destination {
+            width: calc(33.33% - 20px);
+            margin-bottom: 40px;
+            text-align: left;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .destination img {
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            width: 250px;
+            height: 150px;
+        }
+
+        .destination h2 {
+            margin-bottom: 10px;
+            color: #3e64ff;
+        }
+
+        .destination p {
+            line-height: 1.6;
+        }
+
+        .btn {
+            background-color: #3e64ff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1f3f9e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mountain Adventures</h1>
+    <div class="container">
+        <div class="destination">
+            <img src="switzerland.jpg" alt="Switzerland" width="300">
+            <h2>Switzerland</h2>
+            <p>Duration: 10 days</p>
+            <p>Approximate Cost: $3500</p>
+            <p>Mode of Travel: Train</p>
+            <p>Activities: Explore Jungfrau Region, Visit Rhine Falls, Glacier Express</p>
+            <button class="btn">Know More!</button>
+        </div>
+        <div class="destination">
+            <img src="kashmir.jpg" alt="Kashmir" width="300">
+            <h2>Kashmir</h2>
+            <p>Duration: 10 days</p>
+            <p>Approximate Cost: $1500</p>
+            <p>Mode of Travel: Train</p>
+            <p>Activities: Explore Dal Lake, Visit Mughal Gardens, Gulmarg Skiing</p>
+            <form method="GET" action="email_form.php">
+                <input type="hidden" name="destination" value="Tokyo">
+                <button type="submit" class="btn">Know More!</button>
+        </div>
+        <div class="destination">
+            <img src="himalayas.jpg" alt="Himalayas" width="300">
+            <h2>Himalayas</h2>
+            <p>Duration: 12 days</p>
+            <p>Approximate Cost: $4000</p>
+            <p>Mode of Travel: Trekking</p>
+            <p>Activities: Trekking, Camping, Visit Monasteries</p>
+            <form method="GET" action="email_form.php">
+                <input type="hidden" name="destination" value="Tokyo">
+                <button type="submit" class="btn">Know More!</button>
+        </div>
+        <div class="destination">
+            <img src="andes.jpg" alt="Andes" width="300">
+            <h2>Andes</h2>
+            <p>Duration: 9 days</p>
+            <p>Approximate Cost: $3800</p>
+            <p>Mode of Travel: Hiking</p>
+            <p>Activities: Hiking, Mountain Climbing, Explore Machu Picchu</p>
+            <form method="GET" action="email_form.php">
+                <input type="hidden" name="destination" value="Tokyo">
+                <button type="submit" class="btn">Know More!</button>
+        </div>
+        
+        </div>
+        
+        </div>
+    </div>
+    <footer style="background-color: #0d406e; padding: 20px; margin-top: 50px;">
+        <div style="text-align: center; color: #fff; margin-bottom: 20px;">
+            <p>&copy; 2024 VOYAGE VISTA. All rights reserved. (146 AND 176)</p>
+            <div style="margin-top: 10px;">
+                <a href="https://www.instagram.com/" target="_blank" style="text-decoration: none; color: #fff; margin-right: 10px;">
+                    <i class="fab fa-instagram" style="font-size: 24px;"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" style="text-decoration: none; color: #fff; margin-right: 10px;">
+                    <i class="fab fa-twitter" style="font-size: 24px;"></i>
+                </a>
+                <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none; color: #fff; margin-right: 10px;">
+                    <i class="fab fa-facebook-f" style="font-size: 24px;"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
